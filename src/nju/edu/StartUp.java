@@ -6,12 +6,12 @@ import nju.edu.hotswap.HotSwapFactory;
 /**
  * @author luxiangfan
  */
-public class MsgHandler implements Runnable {
+public class StartUp implements Runnable {
 
 	public static final String MY_HOT_SWAP = "nju.edu.hotswap.MyHotSwap";
 
 	public static void main(String[] args) {
-		new Thread(new MsgHandler()).start();
+		new Thread(new StartUp()).start();
 	}
 
 	@Override
